@@ -1,6 +1,6 @@
 // Supabase Client - IMPORTANT: Replace with your project details
-const SUPABASE_URL = 'YOUR_SUPABASE_URL'; // TODO: Replace with your Supabase URL
-const SUPABASE_ANON_KEY = 'YOUR_SUPABASE_ANON_KEY'; // TODO: Replace with your Supabase Anon Key
+const SUPABASE_URL = 'https://nxyiwuugiwfbtxosdcnv.supabase.co'; // TODO: Replace with your Supabase URL
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im54eWl3dXVnaXdmYnR4b3NkY252Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjEwOTA5NjcsImV4cCI6MjA3NjY2Njk2N30.oVW1yNe3ksDEJeAZdzvFEsmK6V7DaUCvTI0xNysR1bA'; // TODO: Replace with your Supabase Anon Key
 const supabase = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
 console.log('Supabase client initialized. If you see errors, check your URL and Key.');
